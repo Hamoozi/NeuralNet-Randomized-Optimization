@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import time
 
 
-data = pd.read_csv("C:\\Users\\hqmza\\OneDrive\\Desktop\\heart.csv")
+data = pd.read_csv("file")
 X = data.iloc[:,2:-1]
 Y = data.iloc[:,-1:]
 Xtrain, Xtest, ytrain, ytest = train_test_split(X,Y,test_size=.2, random_state=0)
