@@ -1,6 +1,4 @@
 Hamza Wahhas
-Prof O'Neill
-CS 390-02
 4/3/23
 
 
