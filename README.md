@@ -7,10 +7,10 @@ This project uses three optimization algorithms sourced from the `mlrose` Python
 To run this code, you must have the following installed on your computer:
 
 - Python
-- `sklearn` library
-- `pandas` library
-- `numpy` library
-- `mlrose` library
+- sklearn library
+- pandas library
+- numpy library
+- mlrose library
 
 ## Running the code
 
