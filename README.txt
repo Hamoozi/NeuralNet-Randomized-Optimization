@@ -1,24 +1,28 @@
-Hamza Wahhas
-4/3/23
+# Optimization Algorithms Project
 
+This project uses three optimization algorithms sourced from the `mlrose` Python library to solve various optimization problems. The first part of the project applies random hill climbing, simulated annealing, and genetic algorithm to neural networks based on the heart disease dataset imported from Kaggle. The second part of the project uses two different optimization problems: the Queens problem and the traveling salesperson problem.
 
+## Prerequisites
 
+To run this code, you must have the following installed on your computer:
 
-All 3 algorithms used in this project have been sourced from the mlrose python library. Functions including how to use the algorithms on certain optimzation problems have also been inspired by mlrose.
+- Python
+- `sklearn` library
+- `pandas` library
+- `numpy` library
+- `mlrose` library
 
+## Running the code
 
-Directions to run code.
+1. Clone or download the repository to your computer.
+2. Open the project in your code editor.
+3. Run the desired script (each file is named after the learning algorithm implemented in it).
+4. When prompted, input the file path of your data set (note that this only works for CSV files and you should not use quotation marks when inputting the CSV path).
 
-In order to run the code in any of the files, the user must have python installed along with the sklearn library, pandas library, numpy library and mlrose library.
+## Usage
 
-Each of the files is named after the learning algorithm implemented on it. 
-When the user runs the code, they'll be prompted to input the file path of their data set. Note this is only works
-for CSV files (NO QUOTATION MARKS WHEN INPUTTING CSV PATH).
+When you run one of the scripts, you will be prompted to input the file path of your data set. The script will then apply the selected optimization algorithm to solve the specified problem. The results will be collected and plotted using the `mathplotlib` library to show training accuracy vs iterations and test accuracy vs iterations.
 
-In the first part of the project I use random hill climbing, simulated annealing and genetic algorithm for neural networks based off the heart disease dataset imported from kaggle (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
+For more detailed information on how each algorithm and problem is implemented, please refer to the comments in the code and the `mlrose` documentation.
 
-Used a loop for all neural networks in order to track data at all iterations in one pass rather than creating an individual loop for each one. Once the results are collected, we can use the mathplotlib library to plot our results on a graph of training accuracy vs iterations and test accuracy vs iterations.
-
-For the second part of the project I use two different optimzation problems. For the Queens problem I was guided by mlrose documentation (https://mlrose.readthedocs.io/en/stable/source/tutorial1.html). For the traveling salesperson problem I was guided by another mlrose doc (https://mlrose.readthedocs.io/en/stable/source/tutorial2.html). Note that are used are different from the documentaiton in order to preform best, more details in analsys.
-
-Follows same path as the first part for collecting data and plotting, but added time in order to further investigate results using the time library.
+I hope this helps! Let me know if you have any questions or need further assistance 😊.
