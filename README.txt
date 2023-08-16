@@ -24,5 +24,3 @@ To run this code, you must have the following installed on your computer:
 When you run one of the scripts, you will be prompted to input the file path of your data set. The script will then apply the selected optimization algorithm to solve the specified problem. The results will be collected and plotted using the `mathplotlib` library to show training accuracy vs iterations and test accuracy vs iterations.
 
 For more detailed information on how each algorithm and problem is implemented, please refer to the comments in the code and the `mlrose` documentation.
-
-I hope this helps! Let me know if you have any questions or need further assistance 😊.
